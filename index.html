@@ -1,1 +1,152 @@
-<h1>Hello amin</h1>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voetbal Wereld</title>
+    <style>
+        /* Algemene reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basisstijl voor de website */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9e9e9;
+            color: #333;
+        }
+
+        /* Headerstijl */
+        header {
+            background-image: url('https://via.placeholder.com/1500x500?text=Voetbalveld');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 2.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigatiebalk */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1a3d1a;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #276827;
+        }
+
+        /* Content stijl */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            background-color: #fff;
+            margin: 1.5rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #276827;
+            margin-bottom: 1rem;
+        }
+        .section img {
+            width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        .section p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Responsief ontwerp */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav a {
+                padding: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Voetbal Wereld</h1>
+        <p>Het laatste nieuws over voetbal, teams, spelers en wedstrijden!</p>
+    </header>
+
+    <!-- Navigatiebalk -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#wedstrijden">Wedstrijden</a>
+        <a href="#teams">Teams</a>
+        <a href="#nieuws">Nieuws</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Content Container -->
+    <div class="container">
+        <!-- Home Sectie -->
+        <section id="home" class="section">
+            <h2>Welkom bij Voetbal Wereld</h2>
+            <img src="https://via.placeholder.com/800x400?text=Voetbal+Welkom" alt="Welkom bij Voetbal Wereld">
+            <p>Ontdek alles over de voetbalwereld: van de laatste resultaten en transfernieuws tot uitgebreide informatie over je favoriete teams en spelers.</p>
+        </section>
+
+        <!-- Wedstrijden Sectie -->
+        <section id="wedstrijden" class="section">
+            <h2>Wedstrijdkalender</h2>
+            <img src="https://via.placeholder.com/800x400?text=Aankomende+Wedstrijden" alt="Aankomende Wedstrijden">
+            <p>Bekijk hier de aankomende wedstrijden en blijf op de hoogte van de laatste uitslagen.</p>
+        </section>
+
+        <!-- Teams Sectie -->
+        <section id="teams" class="section">
+            <h2>Teams en Spelers</h2>
+            <img src="https://via.placeholder.com/800x400?text=Teams+en+Spelers" alt="Teams en Spelers">
+            <p>Leer meer over de topteams, hun sterspelers, en statistieken van het huidige seizoen.</p>
+        </section>
+
+        <!-- Nieuws Sectie -->
+        <section id="nieuws" class="section">
+            <h2>Voetbalnieuws</h2>
+            <img src="https://via.placeholder.com/800x400?text=Voetbalnieuws" alt="Voetbalnieuws">
+            <p>Blijf op de hoogte van het laatste voetbalnieuws met analyses en highlights van de afgelopen week.</p>
+        </section>
+
+        <!-- Contact Sectie -->
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <img src="https://via.placeholder.com/800x400?text=Contact" alt="Contact">
+            <p>Wil je contact opnemen? Vul het contactformulier in en we nemen snel contact met je op!</p>
+        </section>
+    </div>
+
+</body>
+</html>
+
